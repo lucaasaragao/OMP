@@ -20,7 +20,7 @@ ul{list-style: none;}
 img{max-width: 100%;}
 
 #container {
-	width: 750px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -64,9 +64,53 @@ body.capa #navegacao a#capa{
 	cursor: text;
 }
 
+/*==Conteudo==*/
+
+#conteudo{
+	margin-top: 60px;
+	background: #f5f5f5;
+}
+
+#primario{
+	width: 400px;
+	background: blue;
+	margin: 0 0 20px 150px;
+	float: left;
+}
+
+#secundario{
+	width: 400px;
+	background: green;
+	margin: 0 0 20px 25px;
+	float: left;
+}
+
+#lateral{
+	width: 150px;
+	background: yellow;
+	margin: 0 0 20px -1000px;
+	float: left;
+}
+
+
+
+
+/*==Rodapé==*/
+
+#container-rodape{
+	background: #990000
+	padding:300px;
+}
+#rodape{
+	width: 1000px;
+	margin: 0 auto;
+	color: red;
+}
+
 
 #footer-brasil {
    background: none repeat scroll 0% 0% #0042b1;
    padding: 1em 0px;
    max-width: 100%;
 }
+
