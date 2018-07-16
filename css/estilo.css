@@ -1,116 +1,120 @@
-
-/*==RESET==*/
+/*ESTRUTURA DO SITE*/
 *{
-	padding: 0;
 	margin: 0;
-	/*font-size: 100%;
-	border: none;
-	outline: none;
-	font-weight: 300;
-	box-sizing: border-box;
-	font-family: 'Lato', sans-serif; */
+	padding: 0;
 }
 
-body{background-color: #FFFFFF; font-family: 'Open Sans Condensed', sans-serif;}
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	background: #fff url(../img/header2.jpg) repeat-x;
+	background-size:500px 300px;
+}
 
-a{text-decoration: none;}
-
-ul{list-style: none;}
-
-img{max-width: 100%;}
-
-#container {
-	width: 1000px;
+#container{
+	width: 960px;
 	margin: 0 auto;
 }
-
-#topo{
-	height: 150px;
-	/*background: url(../img/logo.png) no-repeat left top; -> pode ser uma imagem*/ 
-	/*border: 1px solid red;*/	
-	padding-top: 25px;
+#Topo{
+	height: 250px;
+	border: 1px solid blue;
 }
+
 .logo{
-	width:220px;
-	height:100px;
-	background: url(../img/logo.png) no-repeat center;
-	text-indent: -3000px;
+	width: 300px;
+	height: 300px;
+	background: url(../img/logobranco1.png) no-repeat;
+	text-indent: -3000px; /*escondendo do usuario*/
 }
 
-#topo ul{
-	margin-top: 30px;
-	background: #fff;
-	float: right;
+
+/*Barra de navegaão*/
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li a {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-#topo ul li{
-	float: left;
-}
-
-#topo ul li a{
-	font-size: 1.5em;
-	display: block;
-	padding: 0.5em 1.5em;
-	line-height: 2.1em;
-	color: #808080
-}
-#topo ul a:hover{
-	color: #000000
-}
-
-body.capa #navegacao a#capa{
-	color: #000000
-	background: #de003e;
-	cursor: text;
-}
-
-/*==Conteudo==*/
-
+/*Configurando Layout*/
 #conteudo{
-	margin-top: 60px;
+	margin-top: 100px;
 	background: #f5f5f5;
 }
-
-#primario{
-	width: 400px;
+#Primario{
+	width: 720px;
+	float: right;
+	margin: 0 0 30px 15px;
 	background: blue;
-	margin: 0 0 20px 150px;
-	float: left;
+}
+#Lateral{
+	width: 210px;
+	margin: 0 0 30px 0px;
+	float: right;
+	
 }
 
-#secundario{
-	width: 400px;
-	background: green;
-	margin: 0 0 20px 25px;
-	float: left;
+/*CAIXA*/
+.caixa{
+	margin: 10px 0; /*formatação espaçamento caixa*/
+	background: #fff;
 }
 
-#lateral{
-	width: 150px;
-	background: yellow;
-	margin: 0 0 20px -1000px;
-	float: left;
+h2{
+	font-family: 1em;
+	background: #FFF;
+	color: #81142b;
+	padding: 5px;
+}
+
+.caixa-conteudo{
+	background: #ffff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.caixa-conteudo2{
+	background: #ffff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/*FORMATAÇÃO MENUS LATERAIS*/
+
+ul a{
+
+	font-size: 1em;
+ 	padding: 3px;
+ 	display: block;
+ 	line-height: 30px;
+ 	color: #000;
+ 	text-decoration: none;
+ 	border-bottom: 1px solid #fff
+
+}
+
+ul a:hover{
+	background: #f9f9f9;
+ 	padding-left: 5px;
+ 	color: #a1a1a1;
 }
 
 
 
 
-/*==Rodapé==*/
 
+
+/*RODAPE*/
 #container-rodape{
-	background: #990000
-	padding:300px;
+	background: #81142b;
+	padding: 20px;
 }
+
 #rodape{
-	width: 1000px;
+	width: 750px;
 	margin: 0 auto;
-	color: red;
+	color: #fff;
 }
-
-
-#footer-brasil {
-   background: none repeat scroll 0% 0% #0042b1;
-   padding: 1em 0px;
-   max-width: 100%;
-}
-
