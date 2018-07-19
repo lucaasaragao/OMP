@@ -7,7 +7,7 @@
 body{
 	font-family: 'Open Sans Condensed', sans-serif;
 	background: #fff url(../img/header2.jpg) repeat-x;
-	background-size:500px 300px;
+	background-size:700px 300px;
 }
 
 #container{
@@ -15,7 +15,7 @@ body{
 	margin: 0 auto;
 }
 #Topo{
-	height: 250px;
+	height: 200px;
 	border: 1px solid blue;
 }
 
