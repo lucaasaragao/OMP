@@ -145,9 +145,9 @@ ul a:hover{
 
 /************************PAGINA fale_conosco*****************************/
 
-.entre_contato h2{
-	margin-top: 100px;
-	margin-left: 10px;
+#entre_contato h2{
+	margin-top: 0px;
+	margin-left: 200px;
 	color: #81140c;
 	font-family: 1em;
 	

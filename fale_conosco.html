@@ -21,21 +21,27 @@
 <body>
    <header>
 <!-- barra do goveno começo -->
-   <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
-      <ul id="menu-barra-temp" style="list-style:none;">
-         <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
-         <li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li>
-      </ul>
-   </div> 
+      <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
+         <ul id="menu-barra-temp" style="list-style:none;">
+            <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
+            <li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li>
+         </ul>
+      </div> 
+   </header>
 <!-- barra do goveno FINAL -->
 
    <div id="container">
       <div id="Topo">
-         <a href="index.html"><h1 class="logo"> Editora UFPB </h1></a></div>
-         <div class="entre_contato">
-            <h2>Entre em Contato</h2>
-         </div>
-      <div class="pgContato">  
+         <a href="index.html"><h1 class="logo"> Editora UFPB </h1></a>
+      </div>
+
+
+   <!--Inicio do conteudo-->
+      <div id="conteudo">
+         <div id="Primario"> 
+            <div id="entre_contato"><h2>Entre em contato</h2></div>
+            <!--Inicio do formulario-->
+           <div class="pgContato">  
          <div class="contato">  
             <div class="formContato">  
                <form action="#" id="formContato" method="post" tabindex="1">  
@@ -47,7 +53,84 @@
                </form>  
             </div>  
          </div>  
-      </div>  
+      </div> 
+         <!--Final do formulario-->
+
+           
+         </div>
+
+
+         <!-- Início lateral -->
+            <div id="Lateral">
+               <!-- inicio primeira caixa-->
+               <div class="caixa">
+                  <h2>A EDITORA</h2>
+                  <div class="caixa-conteudo">
+                     <ul>
+                        <li><a href="sobre.html">Sobre a Editora UFPB</a></li>
+                        <li><a href="">Equipe</a></li>
+                        <li><a href="">Pontos de Venda</a></li>
+                        <li><a href="">Clube da Leitura</a></li>
+                        <li><a href="fale_conosco.html">Fale Conosco</a></li>
+                        <li><a href="">Noticias</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- Final primeira caixa-->
+               <div class="caixa"><!-- inicio segunda caixa-->
+                  <h2>LIVROS</h2>
+                  <div class="caixa-conteudo">
+                     <ul>
+                        <li><a href="">Catálogo</a></li>
+                        <li><a href="">Carrinho de Compras</a></li>
+                        <li><a href="">Ebooks para download</a></li>
+                        <li><a href="">Como Publicar</a></li>
+                        <li><a href="">Editais</a></li>
+                     </ul>
+                  </div>
+               </div> <!-- final segunda caixa-->
+               <!-- inicio  terceira caixa-->
+               
+               <!-- Final terceira caixa-->
+
+            </div><!-- fim /lateral -->
+
+             <section id="section">
+                 <div id="secao">
+                  <div class="caixa">
+                     <h2>Editora UFPB</h2>
+                     <div class="caixa-conteudo">
+                        <ul>
+                           <li><a href="index.html">Click aqui para voltar a home</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  
+                 </div>
+              </section>
+
+   </div> <!--Final do conteudo-->
+
+      <!-- Script Começo Barra goveno -->
+      <script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+      <!-- Script Fim Barra goveno -->
+
 
    </div>
+
+   <footer>
+
+   <dir id="container-rodape" style="clear: both;">
+      <div id="rodape">
+         <strong>&copy; Copyright 2000-2018 EDITORA UFPB</strong>
+      </div>
+
+   </dir>
+   
+      <div id="footer-brasil"></div> 
+</footer>
+</body>
+</html>
+   
+
 
