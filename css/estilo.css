@@ -6,7 +6,7 @@
 
 body{
 	font-family: 'Open Sans Condensed', sans-serif;
-	background: #fff url(../img/header2.jpg) repeat-x;
+	background: #fff url(../img/fundo.png) repeat-x;
 	background-size:700px 300px;
 }
 
@@ -15,6 +15,7 @@ body{
 	margin: 0 auto;
 }
 #Topo{
+	margin-top: 20px;
 	height: 200px;
 	border: 1px solid blue;
 }
@@ -58,18 +59,22 @@ li a {
 	
 }
 
+/*SECTION*/
+
+#section h1, h2, h3{
+	color: #81142b;
+} 
+
 /*CAIXA*/
 .caixa{
 	margin: 10px 0; /*formatação espaçamento caixa*/
 	background: #fff;
+	color: #81142b;
+	font-family: 1em;
+	
 }
 
-h2{
-	font-family: 1em;
-	background: #FFF;
-	color: #81142b;
-	padding: 5px;
-}
+
 
 .caixa-conteudo{
 	background: #ffff;
@@ -103,6 +108,16 @@ ul a:hover{
  	color: #a1a1a1;
 }
 
+#button{
+	display:block;
+    width:80px;
+    height:26px;
+    font-weight:bold;
+    color:#81142b;
+    border: none;
+    margin-top: 10px;
+}
+
 
 
 
@@ -127,3 +142,72 @@ ul a:hover{
    max-width: 100%;
 }
 
+/************************NOVA PAGINA*****************************/
+/************************PAGINA fale_conosco*****************************/
+
+
+.formContato {  
+     width: 100%;  
+   }  
+   .formContato input {  
+     width: 90%;  
+     margin-left: 10px;  
+     margin-right: 10px;  
+   }  
+   .formContato textarea {  
+     width: 90%;  
+     margin-left: 10px;  
+     margin-right: 10px;  
+   }  
+   .botaoContato {  
+     margin-left: 10px;  
+     margin-right: 10px;  
+     margin-top: 1px;  
+   }  
+   .pgContato input {  
+     padding-left: 20px;  
+     color: #292929;  
+     font-size: 18px;  
+     background-color: #E9E9E9;  
+     border: 1px solid #E9E9E9;  
+     -moz-border-radius: 5px;  
+     -webkit-border-radius: 5px;  
+     border-radius: 5px;  
+     height: 40px;  
+     margin-bottom: 20px;  
+     border-bottom: 1px solid #ccc;  
+     border-left: 1px solid #ccc;  
+   }  
+   .pgContato textarea {  
+     padding-left: 20px;  
+     color: #292929;  
+     font-size: 18px;  
+     background-color: #E9E9E9;  
+     border: 1px solid #E9E9E9;  
+     -moz-border-radius: 5px;  
+     -webkit-border-radius: 5px;  
+     border-radius: 5px;  
+     height: 200px;  
+     margin-bottom: 20px;  
+     border-bottom: 1px solid #ccc;  
+     border-left: 1px solid #ccc;  
+   }  
+   .botaoContato {  
+     border-radius: 4px;  
+     color: #fff;  
+     padding: 2px 40px;  
+     height: 40px;  
+     margin-top: 18px;  
+     opacity: 0.9;  
+     margin-bottom: 20px;  
+     cursor: pointer;  
+     background: #B22222;  
+     display: inline-block;  
+     border: none;  
+     border-bottom: 1px solid #500707;  
+     border-right: 1px solid #500707;  
+   }  
+   .botaoContato:hover {  
+     opacity: 1.0;  
+     transition: 1s;  
+   }  
