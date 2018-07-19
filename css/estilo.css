@@ -116,5 +116,13 @@ ul a:hover{
 #rodape{
 	width: 750px;
 	margin: 0 auto;
+	text-align: center;
 	color: #fff;
 }
+
+#footer-brasil {
+   background: none repeat scroll 0% 0% #81140c;
+   padding: 1em 0px;
+   max-width: 100%;
+}
+
