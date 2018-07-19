@@ -46,9 +46,10 @@ li a {
 }
 #Primario{
 	width: 720px;
+	height: 100px;
 	float: right;
 	margin: 0 0 30px 15px;
-	background: blue;
+	
 }
 #Lateral{
 	width: 210px;
