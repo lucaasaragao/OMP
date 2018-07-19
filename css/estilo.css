@@ -142,10 +142,17 @@ ul a:hover{
    max-width: 100%;
 }
 
-/************************NOVA PAGINA*****************************/
+
 /************************PAGINA fale_conosco*****************************/
 
+.entre_contato h2{
+	margin-top: 100px;
+	margin-left: 10px;
+	color: #81140c;
+	font-family: 1em;
+	
 
+}
 .formContato {  
      width: 100%;  
    }  
@@ -201,7 +208,7 @@ ul a:hover{
      opacity: 0.9;  
      margin-bottom: 20px;  
      cursor: pointer;  
-     background: #B22222;  
+     background: #81140c;  
      display: inline-block;  
      border: none;  
      border-bottom: 1px solid #500707;  
